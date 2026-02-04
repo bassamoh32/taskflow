@@ -31,6 +31,7 @@ connectDB();
 app.use(helmet());
 
 // Middleware - CORS
+// Middleware - CORS
 app.use(
   cors({
     origin: [
@@ -38,7 +39,8 @@ app.use(
       'http://localhost:5173',
       'http://localhost:5174',
       'https://task-hub-nine-navy.vercel.app',
-      'https://task-hub-yc6v.vercel.app', 
+      'https://task-hub-yc6v.vercel.app',
+      'https://task-hub-lyart.vercel.app',  // ADD THIS LINE
       process.env.FRONTEND_URL
     ],
     credentials: true,
