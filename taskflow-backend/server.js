@@ -38,6 +38,7 @@ app.use(
       'http://localhost:5173',
       'http://localhost:5174',
       'https://task-hub-nine-navy.vercel.app',
+      'https://task-hub-yc6v.vercel.app', 
       process.env.FRONTEND_URL
     ],
     credentials: true,
